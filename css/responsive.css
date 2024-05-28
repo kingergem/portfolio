@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+  hr {
+    display: block;
+  }
+  .toggle-label {
+    z-index: 103;
+  }
+  .toggle-menu:checked ~ .nav-menu {
+    opacity: 1;
+    height: 100dvh;
+    width: 100vw;
+    background: rgb(255 255 255 / 50%);
+    backdrop-filter: blur(10px);
+    clip-path: circle(150% at 100% 0);
+    top: 0;
+    left: 0;
+    z-index: 102;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav-menu {
+    transition: all .3s ease-in;
+    opacity: 0;
+    position: absolute;
+    clip-path: circle(0% at 100% 0);
+  }
+.nav-menu a{
+  text-align: center;
+  background:;
+  margin: 20px 0;
+  font-family: 'Poppins-bold';
+  font-weight: 800;
+}
+  .home-content .image-cont {
+    margin: -40px auto !important;
+  }
+  .min-menu {
+    display: block;
+    position: fixed; /* Position relative to the viewport */
+    top: 10px; /* Adjust top value as needed to position correctly */
+    right: 5%; /* Adjust left value as needed */
+    z-index: 103;
+  }
+}
