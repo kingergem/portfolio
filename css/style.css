@@ -208,4 +208,15 @@ main .home-content {
 /*Projects section*/
 #projects {
   height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#projects iframe {
+  width: 80%;
+  height: 600px;
+  margin: 20px 0;
+  border-radius: 20px;
 }
