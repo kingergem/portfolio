@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animation.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <title>Kinger | Frontend Developer</title>
+</head>
+<body>
+  <header>
+    <a href="#home" class="logo"><img src="./img/logo.png" alt="Logo"></a>
+    <input type="checkbox" name="toggle-menu" id="toggle-menu" class="toggle-menu">
+    <label for="toggle-menu" class="toggle-label">
+      <img class="min-menu" src="./img/hamburger-menu.svg" alt="Menu">
+    </label>
+    <nav class="nav-menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home-content">
+      <img class="profile-pic" src="./img/profile.jpg" alt="Kinger Profile">
+      <div class="description">
+        <h1 style="--i: 1">Hi! I'm <span>Kinger Gem!</span></h1>
+        <h3 style="--i: 2">An aspiring Frontend Developer!</h3>
+        <div style="--i: 3" class="icons">
+          <a style="--b: 1" href="mailto:kingergem2321@gmail.com"><img src="./img/google-icon.svg" alt="Google"></a>
+          <a style="--b: 2" href="https://www.facebook.com/Rosvillo123"><img src="./img/facebook-icon.svg" alt="Facebook"></a>
+          <a style="--b: 3" href="https://github.com/kingergem/kingergem"><img src="./img/github-icon.svg" alt="Github"></a>
+          <a style="--b: 4" href="https://youtube.com/@rosvillopol-ut323?si=z6HtWGTrbBDHyQjV"><img src="./img/youtube-icon.svg" alt="Youtube"></a>
+        </div>
+        <a class="arrowdown-border" style="--i: 4" href="#about"><img class="arrow-down-icon" src="./img/arrow-down.svg" alt="Arrow-down"></a>
+      </div>
+    </section>
+    <hr/>
+    <section id="about" class="about-me">
+      <div>
+        <h1>About me!</h1>
+        <p>Welcome to my portfolio! I am an enthusiastic learner diving into the world of frontend development. Currently, I am honing my skills in HTML, CSS, and JavaScript to build engaging and responsive web pages. As I continue to learn and grow, 
+        I am excited to take on new challenges and projects. Join me on my journey as I transform ideas into digital reality, one line of code at a time.</p>
+      </div>
+      <a class="arrowdown-border" href="#projects"><img class="arrow-down-icon" src="./img/arrow-down.svg" alt="Arrow-down"></a>
+    </section>
+    <hr/>
+    <section class="projects" id="projects">
+      <iframe src="https://htmlpreview.github.io/?https://github.com/kingergem/proj/blob/main/four-card-feature-section/index.html" frameborder="0"></iframe>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
