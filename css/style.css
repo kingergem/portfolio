@@ -213,10 +213,16 @@ main .home-content {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 20px;
+  iframe {
+    width: min(80%, 600px);
+    height: 600px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--secondary-clr);
 }
-#projects iframe {
-  width: 80%;
-  height: 600px;
-  margin: 20px 0;
-  border-radius: 20px;
+/*footer section*/
+footer {
+  text-align: center;
+  margin: 10px auto;
 }
