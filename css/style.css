@@ -273,5 +273,8 @@ main {
 }
 footer {
   margin-inline: auto;
-  text-align: center;
+  p {
+    text-align: center;
+    font-family: ibm-plex;
+  }
 }
