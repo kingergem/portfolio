@@ -194,11 +194,11 @@ main .home-content {
   transform: translateY(30px);
 }
 #about {
-  h1 {
+  & h1 {
     font-size: clamp(2rem, 4vw, 3rem);
     margin-bottom: 30px;
   }
-  p {
+  & p {
     line-height: 2rem;
   }
 }
@@ -214,6 +214,10 @@ main .home-content {
   flex-direction: column;
   text-align: center;
   padding: 20px;
+    & h1 a {
+      animation: colorChange 4s linear infinite reverse;
+    }
+  }
   iframe {
     width: min(80%, 600px);
     height: 600px;
