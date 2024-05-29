@@ -271,4 +271,8 @@ main {
       box-shadow: 0 0 10px var(--secondary-clr);
     }
   }
+  footer {
+  margin-inline: auto;
+  text-align: center;
+  }
 }
